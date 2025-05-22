@@ -34,6 +34,7 @@ module.exports = {
         venv: "app/env",
         message: [
           "uv pip install -r requirements.txt",
+          "uv pip install transformers==4.50.3"
         ]
       }
     },
